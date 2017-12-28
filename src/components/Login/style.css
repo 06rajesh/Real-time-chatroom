@@ -1,0 +1,30 @@
+.login {
+  text-align: center;
+  padding-top: 8%;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+.inverted{
+  color: rgba(255,255,255,0.75);
+}
+
+.login .ui.text.container{
+  max-width: 400px!important;
+}
+
+.login .ui.attached.segment{
+  border: 0;
+  padding: 0;
+}
+
+.login .ui.inverted.menu{
+  margin: -17px -17px 15px -17px;
+  border-radius: .28571429rem .28571429rem 0 0;
+}
+
+.login .ui.inverted.menu .item{
+  width: 50%;
+}
