@@ -28,7 +28,7 @@ class ChatRoom extends Component {
             let tempText = this.state.texts;
             let messageObj = {};
             messageObj.user = username;
-            messageObj.image = 'http://dummyimage.com/250x250/8903ff/fff&text=' + username.charAt(0).toUpperCase();
+            messageObj.image = 'http://dummyimage.com/50x50/8903ff/fff&text=' + username.charAt(0).toUpperCase();
             messageObj.text = data;
             messageObj.date = new Date().getTime();
             tempText.push(messageObj);
