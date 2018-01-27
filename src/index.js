@@ -15,7 +15,7 @@ class Layout extends Component {
 
     constructor(props){
         super(props);
-        thisSocket.connectSocket('https://aqueous-anchorage-50772.herokuapp.com');
+        thisSocket.connectSocket('http://localhost:3001');
     }
 
     render(){

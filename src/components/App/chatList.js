@@ -16,7 +16,7 @@ class ChatList extends Component{
     renderUserText(message, index, dateString){
         return(
             <List.Item key={index} ref={index}>
-                <Image floated='right' avatar src={message.image} style={{'margin' : '0 1rem 0 0;'}}/>
+                <Image floated='right' avatar src={message.image} style={{'margin' : '0 1rem 0 0'}}/>
                 <List.Content floated='right'>
                     <span className='time-text' style={{'paddingRight' : '5px'}}>{dateString}</span>
                     <Label pointing='right'>{message.text}</Label>
